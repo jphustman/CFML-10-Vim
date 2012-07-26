@@ -1,10 +1,12 @@
 " Vim syntax file
-" Language:	CFML
-" Maintainer:	Toby Woodwark (toby.woodwark+vim@gmail.com)
-" Last Change:	2010-03-02
-" Filenames:	*.cfc *.cfm
-" Version:	Adobe ColdFusion 9
-" Usage:	This file contains both syntax definitions
+" Language:	cfml
+" Maintainer:	Jeremey Hustman
+" Last Change:	26 July 2012
+" Filenames:	*.cfc *.cfm *.cfml
+" Version:	Adobe ColdFusion 10
+" Usage:	This is a continuation of the file from Toby Woodwark
+" 		--
+" 	 	This file contains both syntax definitions
 " 		and a list of known builtin tags, functions and keywords.
 " 		Refs - 
 " http://help.adobe.com/en_US/ColdFusion/9.0/Developing/WS8f0cc78011fffa71866534d11cdad96e4e-8000.html
@@ -116,6 +118,7 @@ syn keyword	cfTagName	contained cfsharepoint cfspreadsheet
 " Tag attributes.
 " XXX Not updated for ColdFusion 8/9.
 " These are becoming a headache to maintain, so might be removed.
+" !!JPH ---> Assuming these are <=7
 syn keyword	cfArg		contained abort accept access accessible action addnewline addtoken
 syn keyword	cfArg		contained agentname align appendkey appletsource application
 syn keyword	cfArg		contained applicationtimeout applicationtoken archive
@@ -196,6 +199,17 @@ syn keyword	cfArg		contained validateat value valuecolumn values valuesdelimiter
 syn keyword	cfArg		contained valuesdisplay var variable vertical visible vscroll vspace
 syn keyword	cfArg		contained webservice width wmode wraptext wsdlfile xaxistitle
 syn keyword	cfArg		contained xaxistype xoffset yaxistitle yaxistype yoffset
+" ColdFusion 8
+syn keyword	cfArg		contained returnFormat secureJSON verifyClient 
+" ColdFusion 9
+" ColdFusion 10
+syn keyword	cfArg		contained restPath httpMethod produces consumes
+ 
+
+
+
+
+
 
 " Functions.
 " ColdFusion <=7:
