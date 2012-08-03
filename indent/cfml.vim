@@ -8,3 +8,8 @@ if exists("b:did_indent")
    finish
 endif
 let b:did_indent = 1
+
+
+
+" lets use HTML formatting rules first.
+runtime! indent/html.vim

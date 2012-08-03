@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *	if &ft == 'cf' | set ft=cfml | endif
+au BufRead,BufNewFile *.cfml | set ft=cfml | endif
