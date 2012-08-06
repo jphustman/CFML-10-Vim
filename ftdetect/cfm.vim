@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.cfm | set ft=cfml | endif
+au BufRead,BufNewFile *.cfm set filetype=cfml
