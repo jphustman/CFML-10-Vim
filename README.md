@@ -2,9 +2,6 @@ CFML-10-Vim
 ===========
 Vim scripts for making ColdFusion 10 development easier.
 
-For simplist installation, use <a href="https://github.com/tpope/vim-pathogen">Pathogen</a>, otherwise just copy these into your <code>~/.vim</code> or <code>~/vimfiles</code> directory.  These will not overwrite any files that come with the standard VIM 7.3 installation.
+Use <a href="https://github.com/spf13/spf13-vim">spf13-vim</a> and simply add <code>Bundle 'jphustman/CFML-10-Vim'</code> to your ~/.vimrc.bundles.local file.
 
-
-This redirects all filetype=cf to filetype=cfml, TO UNINSTALL simply remove the cfml.vim files out of these directories or delete it out of the bundles directory.
-
-The syntax file is started from the cf.vim file included with VIM by Toby Woodwark built around ColdFusion 9.
+This syntax file was started from the cf.vim file included with VIM73 by Toby Woodwark built around ColdFusion 9.
